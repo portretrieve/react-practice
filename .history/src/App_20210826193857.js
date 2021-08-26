@@ -9,7 +9,6 @@ import Trappist from "./beers/Trappist";
 import Header from "./navigation/Header";
 import Footer from "./navigation/Footer";
 import MainPage from "./MainPage";
-import CenterContent from "./Util/CenterContent";
 
 function App() {
   return (
@@ -17,34 +16,22 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact>
-          <CenterContent>
-            <MainPage />
-          </CenterContent>
+          <MainPage />
         </Route>
         <Route path="/wines" exact>
-          <CenterContent>
-            <Riesling />
-          </CenterContent>
+          <Riesling />
         </Route>
         <Route path="/wines/syrah" exact>
-          <CenterContent>
-            <Syrah />
-          </CenterContent>
+          <Syrah />
         </Route>
         <Route path="/beers/ale" exact>
-          <CenterContent>
-            <Ale />
-          </CenterContent>
+          <Ale />
         </Route>
         <Route path="/beers/trappist" exact>
-          <CenterContent>
-            <Trappist />
-          </CenterContent>
+          <Trappist />
         </Route>
         <Route path="/beers/lager" exact>
-          <CenterContent>
-            <Lager />
-          </CenterContent>
+          <Lager />
         </Route>
         <Redirect to="/" />
       </Switch>

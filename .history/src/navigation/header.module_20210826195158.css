@@ -1,0 +1,14 @@
+.header {
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h2 {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -22,29 +22,19 @@ function App() {
           </CenterContent>
         </Route>
         <Route path="/wines" exact>
-          <CenterContent>
-            <Riesling />
-          </CenterContent>
+          <Riesling />
         </Route>
         <Route path="/wines/syrah" exact>
-          <CenterContent>
-            <Syrah />
-          </CenterContent>
+          <Syrah />
         </Route>
         <Route path="/beers/ale" exact>
-          <CenterContent>
-            <Ale />
-          </CenterContent>
+          <Ale />
         </Route>
         <Route path="/beers/trappist" exact>
-          <CenterContent>
-            <Trappist />
-          </CenterContent>
+          <Trappist />
         </Route>
         <Route path="/beers/lager" exact>
-          <CenterContent>
-            <Lager />
-          </CenterContent>
+          <Lager />
         </Route>
         <Redirect to="/" />
       </Switch>

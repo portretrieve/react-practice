@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+h2 {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+a {
+    text-decoration: none;
+}

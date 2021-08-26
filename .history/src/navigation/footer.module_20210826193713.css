@@ -1,0 +1,7 @@
+.center {
+    text-align: center;
+    background-color: pink;
+    font-weight: 700;
+    font-size: 2rem;
+    position: fixed;
+}

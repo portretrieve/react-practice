@@ -1,0 +1,13 @@
+.center {
+    margin: 10px auto;
+}
+
+.background {
+    background-color: aliceblue;
+    color: red;
+}
+
+h2 {
+    display: inline-block;
+    margin: 10px;
+}

@@ -1,0 +1,8 @@
+.background {
+    background-color: aliceblue;
+    color: red;
+}
+
+h2 {
+    display: inline-block;
+}
