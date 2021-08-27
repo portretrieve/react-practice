@@ -1,28 +1,28 @@
 import React from "react";
 import classes from "./header.module.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header className={classes.header}>
       <nav>
         <h2>
-          <NavLink to="/">Mainpage</NavLink>
+          <Link to="/">Mainpage</Link>
         </h2>
         <h2>
-          <NavLink to="/wines">Riesling</NavLink>
+          <a href="/wines">Riesling</a>
         </h2>
         <h2>
-          <NavLink to="/wines/syrah">Syrah</NavLink>
+          <a href="/wines/syrah">Syrah</a>
         </h2>
         <h2>
-          <NavLink to="/beers/ale">Ales</NavLink>
+          <a href="/beers/ale">Ales</a>
         </h2>
         <h2>
-          <NavLink to="/beers/trappist">Trappist</NavLink>
+          <a href="/beers/trappist">Trappist</a>
         </h2>
         <h2>
-          <NavLink to="/beers/lager">Lager</NavLink>
+          <a href="/beers/lager">Lager</a>
         </h2>
       </nav>
     </header>

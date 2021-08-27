@@ -13,7 +13,7 @@ function Header() {
           <NavLink to="/wines">Riesling</NavLink>
         </h2>
         <h2>
-          <NavLink to="/wines/syrah">Syrah</NavLink>
+          <NavNav to="/wines/syrah">Syrah</NavNav>
         </h2>
         <h2>
           <NavLink to="/beers/ale">Ales</NavLink>
