@@ -1,12 +1,10 @@
 .header {
     text-align: center;
     background-color: aliceblue;
-    margin-top: 0;
-}
-
-nav {
-    margin-top: 0;
-    /* padding-top: 5px; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 h2 {

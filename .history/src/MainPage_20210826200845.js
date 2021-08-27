@@ -16,7 +16,7 @@ function MainPage() {
       </p>
       <hr />
       <h2>Another Heading</h2>
-      <p> 
+      <p>
         Here we will discuss different wines and beers. Clicks the links above
         to get to different pages
       </p>

@@ -3,7 +3,7 @@ import classes from "./footer.module.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className={classes.center}>
       <p>&copy; All Rights reserved : Devesh Kumar</p>
     </footer>
   );

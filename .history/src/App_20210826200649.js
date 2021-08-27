@@ -7,6 +7,7 @@ import Lager from "./beers/Lager";
 import Trappist from "./beers/Trappist";
 
 import Header from "./navigation/Header";
+import Footer from "./navigation/Footer";
 import MainPage from "./MainPage";
 import CenterContent from "./Util/CenterContent";
 
@@ -47,6 +48,7 @@ function App() {
         </Route>
         <Redirect to="/" />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
