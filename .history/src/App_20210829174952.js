@@ -55,7 +55,7 @@ import Sample from "./Sample";
 const App = () => {
   return (
     <div>
-      <Sample />
+      <Sample />>
     </div>
   );
 };
